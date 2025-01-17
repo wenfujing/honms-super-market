@@ -7,7 +7,7 @@ struct SplashPage {
     Flex({ direction: FlexDirection.Column, alignItems: ItemAlign.Center }) {
       Column() {
         Image($r('app.media.ic_eshop'))
-          .width(new BreakpointT)
+          // .width(new BreakPointType)
       }
     }
   }
