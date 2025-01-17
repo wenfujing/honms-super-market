@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "common",
+    //静态共享包HAR,编译后会生成一个以.har为后缀的文件
+    "type": "har",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+  }
+}
