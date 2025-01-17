@@ -1,6 +1,3 @@
-
-
-
 export { BreakpointSystem, BreakPointType } from './src/main/ets/utils/BreakpointSystem';
 export { commodityData } from './src/main/ets/viewmodel/ShopData';
 export { CommodityList } from './src/main/ets/components/CommodityList';
