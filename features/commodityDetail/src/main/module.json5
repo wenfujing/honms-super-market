@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "commodityDetail",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+  }
+}
