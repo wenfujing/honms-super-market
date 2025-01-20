@@ -30,6 +30,10 @@
     {
       "name": "commodityDetail",
       "srcPath": "./features/commodityDetail",
+    },
+    {
+      "name": "home",
+      "srcPath": "./features/home",
     }
   ]
 }

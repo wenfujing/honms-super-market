@@ -7,7 +7,8 @@
   "license": "",
   "dependencies": {
     "@ohos/common": "file:../common",
-    "@ohos/commodityDetail":"../features/commodityDetail"
+    "@ohos/commodityDetail":"../features/commodityDetail",
+    "@ohos/home":"../features/home"
   }
 }
 

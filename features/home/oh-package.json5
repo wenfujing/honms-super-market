@@ -1,0 +1,11 @@
+{
+  "name": "@ohos/home",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "dependencies": {
+    "@ohos/common": "file:../../common",
+
+  }
+}
+
