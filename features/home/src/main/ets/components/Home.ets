@@ -3,7 +3,7 @@ import { searchSwiper, classifyTitle, swiperImage, activityTitle, ActivityTitleM
 
 @Component
 export struct Home {
-  @StorageProp('currentBreakpoint') currentBreakpoint: String = 'sm';
+  @StorageProp('currentBreakpoint') currentBreakpoint: string = 'sm';
   @State commodityList: Commodity[] = []
   @State titleIndex: number = 0;
   @State activityTitleIndex: number = 0;

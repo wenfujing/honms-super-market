@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "shopCart",
+    "type": "har",
+    "description": "$string:module_desc",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+  }
+}

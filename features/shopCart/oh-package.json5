@@ -1,0 +1,10 @@
+{
+  "name": "@ohos/shopCart",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "dependencies": {
+    "@ohos/common": "file:../../common"
+  }
+}
+

@@ -13,6 +13,7 @@ import router from '@ohos.router';
 import { PageConstants } from '../constants/PageConstants';
 import { buttonInfo, ButtonInfoModel } from '../viewmodel/MainPageData';
 import { Home } from '@ohos/home';
+import { ShopCart } from '@ohos/shopCart';
 
 @Entry
 @Component
@@ -89,7 +90,10 @@ struct MainPage {
         }.tabBar(this.BottomNavigation(buttonInfo[PageConstants.NEW_PRODUCT_INDEX]))
 
         TabContent() {
-          Home()
+          ShopCart({
+            products: this.shoppingCartList,
+            onNeedUpdate: (): void => this.queryShopCart()
+          })
 
         }.tabBar(this.BottomNavigation(buttonInfo[PageConstants.SHOP_CART_INDEX]))
 

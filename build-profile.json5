@@ -34,6 +34,18 @@
     {
       "name": "home",
       "srcPath": "./features/home",
+    },
+    {
+      "name": "shopCart",
+      "srcPath": "./features/shopCart",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
